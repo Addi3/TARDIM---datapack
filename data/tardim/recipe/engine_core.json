@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "bbb",
+    "beb",
+    "bbb"
+  ],
+  "key": {
+    "b": "minecraft:iron_bars",
+    "e": "minecraft:end_crystal"
+  },
+  "result": {
+    "id": "minecraft:stick",
+    "count": 1,
+    "components": {
+      "minecraft:custom_model_data": 8,
+      "minecraft:item_name": "{\"color\":\"light_purple\",\"text\":\"Engine Core\"}"
+    }
+  }
+}

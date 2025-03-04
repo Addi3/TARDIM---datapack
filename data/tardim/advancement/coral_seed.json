@@ -1,15 +1,18 @@
 {
-    "criteria": {
-      "tddd": {
-        "trigger": "minecraft:recipe_crafted",
-        "conditions": {
-          "recipe_id": "tardim:coral_seed"
-        }
-      }
-    },
-    "rewards": {
-      "function": "tardim:items/coral"
-    },
-    "sends_telemetry_event": false
+  "criteria": {
+    "ghast_spawn_egg": {
+      "conditions": {
+        "items": [
+          {
+          
+            "items": "minecraft:ghast_spawn_egg"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "rewards": {
+    "function": "tardim:items/coral"
   }
-  
+}

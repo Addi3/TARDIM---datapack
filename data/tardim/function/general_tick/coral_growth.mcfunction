@@ -16,9 +16,8 @@ execute if score tick coral matches 2050 at @e[tag=growing_coral] run playsound 
 
 
 execute if score tick coral matches 2050 run scoreboard players set isgrowing coral 0
-execute if score tick coral matches 2050 run scoreboard players set hasgrown coral 1
-execute if score tick coral matches 2050 run scoreboard players reset tick coral
 execute if score tick coral matches 2050 at @e[tag=growing_coral] run playsound minecraft:block.respawn_anchor.charge ambient @p[distance=..5] ~ ~ ~ 1 1 1
 execute if score tick coral matches 2051 run tag @e[tag=growing_coral] add grown_coral
 execute if score tick coral matches 2051 run tag @e[tag=growing_coral] remove growing_coral
-execute if score tick coral matches 2051 run scoreboard players set hasgrowing coral 1
+execute if score tick coral matches 2051 run scoreboard players set hasgrown coral 1
+execute if score tick coral matches 2052 run scoreboard players reset tick coral

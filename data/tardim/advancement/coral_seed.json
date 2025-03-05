@@ -13,6 +13,6 @@
     }
   },
   "rewards": {
-    "function": "tardim:items/coral"
+    "function": "tardim:items/coral/coral"
   }
 }

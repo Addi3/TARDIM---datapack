@@ -1,4 +1,5 @@
 execute if entity @e[tag=growing_coral] run scoreboard players add tick coral 1
+execute as @e[tag=growing_coral] at @s run tp @s ~ ~ ~ 0 0
 
 execute if score tick coral matches 200 run item replace entity @e[tag=growing_coral] armor.head with stick[custom_model_data=2]
 execute if score tick coral matches 200 at @e[tag=growing_coral] run playsound minecraft:block.grass.break ambient @p[distance=..5] ~ ~ ~ 1 1 1

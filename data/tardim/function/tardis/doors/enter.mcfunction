@@ -1,5 +1,6 @@
-execute in tardim:interior1 as @e[tag=dooropen] at @s run tp @p[tag=entering,sort=nearest,tag=!inside] ~ ~ ~1 0 0
-tag @p[tag=entering,sort=nearest] add inside
+function tardim:tardis/doors/door_tags
+execute in tardim:interior1 as @e[tag=dooropen] at @s run tp @p[tag=entering,sort=nearest,tag=!inside] ~ ~ ~0.8 0 0
+tag @p[sort=nearest] add inside
 tag @p[tag=entering,sort=nearest] remove entering
 
 

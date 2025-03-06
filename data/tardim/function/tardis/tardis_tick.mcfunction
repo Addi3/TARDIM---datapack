@@ -1,6 +1,7 @@
 #hitbox
 execute if entity @e[tag=tardis1] at @e[tag=tardis1] run tp @e[tag=hitbox] ~ ~ ~
 execute at @e[tag=tardis1] run tp @e[tag=extdoorint1] ~ ~ ~
+effect give @e[tag=hitbox] minecraft:invisibility infinite 1 true
 
 
 #doors

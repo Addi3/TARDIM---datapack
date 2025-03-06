@@ -15,9 +15,9 @@ execute if score tick coral matches 2050 run item replace entity @e[tag=growing_
 execute if score tick coral matches 2050 at @e[tag=growing_coral] run playsound minecraft:block.grass.break ambient @p[distance=..5] ~ ~ ~ 1 1 1
 
 execute if score tick coral matches 2050 at @e[tag=growing_coral] run playsound minecraft:block.respawn_anchor.charge ambient @p[distance=..5] ~ ~ ~ 1 1 1
-execute if score tick coral matches 2051 run tag @e[tag=growing_coral] add tardis
+execute if score tick coral matches 2051 run tag @e[tag=growing_coral] add tardis1
+execute if score tick coral matches 2051 run tag @e[tag=growing_coral] add tardis1open
 execute if score tick coral matches 2053 run function tardim:tardis/interior/generate/generate_unfinished
 execute if score tick coral matches 2053 run scoreboard objectives add tardis dummy
 execute if score tick coral matches 2053 run scoreboard players set doors tardis 1
 execute if score tick coral matches 2054 run tag @e[tag=growing_coral] remove growing_coral
-execute if score tick coral matches 2054 run scoreboard objectives remove coral

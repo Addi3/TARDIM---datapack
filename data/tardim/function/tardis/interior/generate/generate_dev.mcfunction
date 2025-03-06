@@ -1,0 +1,1 @@
+execute in tardim:interior1 run place template tardim:interiors/dev 0 100 0

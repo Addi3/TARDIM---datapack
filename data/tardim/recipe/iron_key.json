@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " ii",
+    " ei",
+    "i  "
+  ],
+  "key": {
+    "i": "minecraft:iron_ingot",
+    "e": "minecraft:ender_pearl"
+  },
+  "result": {
+    "id": "minecraft:iron_nugget",
+    "count": 1,
+    "components": {
+      "minecraft:custom_model_data": 3,
+      "minecraft:item_name": "{\"color\":\"gold\",\"text\":\"Iron Key\"}"
+    }
+  }
+}

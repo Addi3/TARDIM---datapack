@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:netherite_ingot",
+  "result": {
+    "id": "minecraft:sentry_armor_trim_smithing_template",
+    "count": 1,
+    "components": {
+      "minecraft:custom_model_data": 2,
+      "minecraft:item_name": "{\"color\":\"yellow\",\"text\":\"Netherite Key Upgrade\"}"
+    }
+  },
+  "template": "minecraft:netherite_upgrade_smithing_template",
+  "count": 1,
+  "components": {
+    "minecraft:custom_model_data": 1
+  }
+}

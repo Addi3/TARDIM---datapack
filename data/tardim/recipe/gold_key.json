@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:iron_nugget",
+  "count": 1,
+  "components": {
+    "minecraft:custom_model_data": 1
+  },
+  "result": {
+    "id": "minecraft:iron_nugget",
+    "count": 1,
+    "components": {
+      "minecraft:custom_model_data": 4,
+      "minecraft:item_name": "{\"color\":\"yellow\",\"text\":\"Gold Key\"}"
+    }
+  },
+  "template": "minecraft:netherite_upgrade_smithing_template",
+  "count": 1,
+  "components": {
+    "minecraft:custom_model_data": 1
+  }
+  }

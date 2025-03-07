@@ -31,3 +31,10 @@ execute at @e[tag=tardis1] if entity @p[nbt={Inventory:[{id:"minecraft:iron_nugg
 
 execute at @e[tag=tardis1] if entity @p[nbt={SelectedItem:{id:"minecraft:iron_nugget",components:{"minecraft:custom_model_data":2},components:{"minecraft:lore":['"Linked: Tardis1"']}}},distance=..8] if score locked tardis1 matches 0 if score doors tardis1 matches 0 if score @p crouch matches 1.. run function tardim:tardis/doors/snapping/snap_open
 execute at @e[tag=tardis1] if entity @p[nbt={Inventory:[{id:"minecraft:iron_nugget",Slot:-106b,components:{"minecraft:custom_model_data":2},components:{"minecraft:lore":['"Linked: Tardis1"']}}]},distance=..8] if score locked tardis1 matches 0 if score @p crouch matches 1.. run function tardim:tardis/doors/snapping/snap_close
+
+
+#smoke
+execute in tardim:interior1 run particle smoke 21 124 22 .3 .5 .3 .01 5
+execute in tardim:interior1 run particle smoke 21 124 26 .3 .5 .3 .01 5
+execute in tardim:interior1 run particle smoke 25 124 26 .3 .5 .3 .01 5
+execute in tardim:interior1 run particle smoke 25 124 22 .3 .5 .3 .01 5

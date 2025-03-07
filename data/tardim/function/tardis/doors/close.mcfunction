@@ -1,6 +1,6 @@
 scoreboard players remove doors tardis1 1
 
-function tardim:tardis1/doors/door_tags
+function tardim:tardis/doors/door_tags
 
 execute if score doors tardis1 matches 0 at @e[tag=tardis1] run stopsound @p[distance=..4] ambient
 

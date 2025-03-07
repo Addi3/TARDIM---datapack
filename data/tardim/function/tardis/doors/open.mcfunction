@@ -1,6 +1,6 @@
 scoreboard players add doors tardis1 1
 
-function tardim:tardis1/doors/door_tags
+function tardim:tardis/doors/door_tags
 
 # execute if score doors tardis1 matches 1 at @e[tag=open1] run playsound minecraft:ship_ambience2 ambient @p[distance=..4] ~ ~ ~ .5 1 1
 

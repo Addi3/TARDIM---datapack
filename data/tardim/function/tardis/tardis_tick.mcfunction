@@ -34,7 +34,7 @@ execute at @e[tag=tardis1] if entity @p[nbt={Inventory:[{id:"minecraft:iron_nugg
 
 
 #smoke
-execute in tardim:interior1 run particle smoke 21 124 22 .3 .5 .3 .01 5
-execute in tardim:interior1 run particle smoke 21 124 26 .3 .5 .3 .01 5
-execute in tardim:interior1 run particle smoke 25 124 26 .3 .5 .3 .01 5
-execute in tardim:interior1 run particle smoke 25 124 22 .3 .5 .3 .01 5
+#execute in tardim:interior1 run particle smoke 21 124 22 .3 .5 .3 .01 5
+#execute in tardim:interior1 run particle smoke 21 124 26 .3 .5 .3 .01 5
+#execute in tardim:interior1 run particle smoke 25 124 26 .3 .5 .3 .01 5
+#execute in tardim:interior1 run particle smoke 25 124 22 .3 .5 .3 .01 5
